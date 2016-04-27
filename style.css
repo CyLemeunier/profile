@@ -1,3 +1,5 @@
+/* Here goes your CSS */
+
 body {
   background-color: rgb(230, 230, 230);
 }
@@ -95,10 +97,45 @@ a:hover {
   color: white;
 }
 
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: 40px;
+    text-rendering: auto;
+}
+
 #h2-blue {
   color: rgb(76, 158, 217);
 }
 
 #color-grey {
   color: #999999;
+}
+
+#sidebar {
+  position: fixed;
+  width: 150px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background-color: rgb(76, 158, 217);
+  text-align: center;
+}
+
+#page-content {
+  margin-left: 300px;
+}
+
+#sidebar ul {
+    list-style: none;
+    padding-left: 0px;
+}
+
+#sidebar li {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#sidebar a {
+  color : white;
 }

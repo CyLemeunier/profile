@@ -1,15 +1,40 @@
 <html>
+  <head>
+    <meta charset="utf-8">
+    <title>Basic info</title>
 
-<head>
-  <meta charset="utf-8"></meta>
-  <title>Cyrielle Lemeunier</title>
-  <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
-  <link rel="stylesheet" href="style.css">
-</head>
+    <!-- Google fonts -->
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Montserrat:400,700">
 
-<body>
-  <div class="card-white text-center">
+    <!-- Fontawesome -->
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- Your style -->
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div id="sidebar">
+      <ul>
+        <li>
+          <a href="http://cylemeunier.github.io/profile/">
+            <i class="fa fa-info-circle"></i>
+          </a>
+        </li>
+        <li>
+          <a href="http://www.allocine.fr/">
+            <i class="fa fa-file-video-o"></i>
+          </a>
+        </li>
+        <li>
+          <a href="http://cylemeunier.github.io/profile/#footer">
+            <i class="fa fa-life-ring"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div id="content">
+      <!-- your page content here -->
+    <div class="card-white text-center">
     <img src="images/cyrielle.png" alt="Cyrielle" class="img-circle">
     <h1>
       Cyrielle LEMEUNIER
@@ -70,11 +95,11 @@
     </table>
 
   </div>
-   <div class="card-white text-center">
+   <div class="card-white text-center" id="footer">
     <p>
       Cette page a été codée durant ma formation <a href="https://www.lewagon.com/program" target="_blank" id="color-grey">FullStack @LeWagon</a>.
     </p>
   </div>
-</body>
-
+    </div>
+  </body>
 </html>
